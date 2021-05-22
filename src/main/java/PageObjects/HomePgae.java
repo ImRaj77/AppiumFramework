@@ -21,7 +21,7 @@ public class HomePgae {
 	@AndroidFindBy(accessibility ="Animation")
 	private WebElement animationOption;
 	
-	@AndroidFindBy(accessibility ="Graphics")
+	@AndroidFindBy(accessibility ="Graphic")
 	private WebElement graphicsOption;
 	
 	
