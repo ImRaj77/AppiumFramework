@@ -20,7 +20,16 @@
 	</properties>
 
 	<build>
+
+		<resources>
+			<resource>
+				<directory>src/main/java/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+		
 		<pluginManagement>
+
 			<plugins>
 
 				<plugin>
@@ -71,6 +80,8 @@
 		</pluginManagement>
 	</build>
 
+
+
 	<dependencies>
 
 		<dependency>
@@ -90,7 +101,6 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.4.0</version>
-			<scope>test</scope>
 		</dependency>
 
 		<dependency>
