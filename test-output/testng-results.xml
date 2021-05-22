@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26452" started-at="2021-05-22T19:34:18 IST" finished-at="2021-05-22T19:34:44 IST">
+  <suite name="Suite" duration-ms="27725" started-at="2021-05-22T20:06:22 IST" finished-at="2021-05-22T20:06:49 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26452" started-at="2021-05-22T19:34:18 IST" finished-at="2021-05-22T19:34:44 IST">
+    <test name="Test" duration-ms="27725" started-at="2021-05-22T20:06:22 IST" finished-at="2021-05-22T20:06:49 IST">
       <class name="practice.AppiumFramework.FirstTest">
-        <test-method status="FAIL" signature="apiDemoTest()[pri:0, instance:practice.AppiumFramework.FirstTest@43bd930a]" name="apiDemoTest" duration-ms="26429" started-at="2021-05-22T19:34:18 IST" finished-at="2021-05-22T19:34:44 IST">
+        <test-method status="FAIL" signature="apiDemoTest()[pri:0, instance:practice.AppiumFramework.FirstTest@33723e30]" name="apiDemoTest" duration-ms="26759" started-at="2021-05-22T20:06:22 IST" finished-at="2021-05-22T20:06:48 IST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Can't locate an element by this strategy: By.chained({By.AccessibilityId: Graphic})]]>
@@ -46,7 +46,7 @@ at org.testng.TestNG.run(TestNG.java:1037)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@63f8276e (tried for 1 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@75f95314 (tried for 1 second(s) with 500 milliseconds interval)
 at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
@@ -79,6 +79,6 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           </reporter-output>
         </test-method> <!-- apiDemoTest -->
       </class> <!-- practice.AppiumFramework.FirstTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
