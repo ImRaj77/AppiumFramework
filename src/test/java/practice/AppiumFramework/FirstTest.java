@@ -1,5 +1,6 @@
 package practice.AppiumFramework;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -44,5 +45,11 @@ public class FirstTest extends BaseTest {
 		
 		// It will stop and clean all Appium services
 		//service.stop();
+	}
+	
+	
+	@Test(dataProvider = "InputData",dataProviderClass = TestData.class)
+	public void dataProviderTest(String input) {
+		Assert.assertEquals("Hello", input);
 	}
 }

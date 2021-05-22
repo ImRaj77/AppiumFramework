@@ -9,7 +9,7 @@
     <classes>
       <class name="practice.AppiumFramework.FirstTest">
         <methods>
-          <include name="apiDemoTest"/>
+          <include name="dataProviderTest" invocation-numbers="1"/>
         </methods>
       </class> <!-- practice.AppiumFramework.FirstTest -->
     </classes>
